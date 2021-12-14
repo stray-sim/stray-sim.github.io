@@ -1,6 +1,8 @@
 ## STRAY Simulation platform for radiology systems
 
 
+The simulator can deal with a wide variety of scanning geometries but does not include the source model (heel effect, polychromatic nature, focal spot) or detector model (noise model, intensity response), both of which could easily be included in the future as new modules of STRAY in the support layer.
+
 
 ### Features
 
@@ -12,11 +14,31 @@
 - Includes the following default configurations: circular CT, helical CT, extended field of view and two tomosynthesis configurations.
 
 
+### Contributors
+
+Computer Science and Engineering Dept., Universidad Carlos III de Madrid, Madrid, Spain \
+Dept. Bioingeniería e Ingeniería Aeroespacial, Universidad Carlos III de Madrid, Madrid, Spain \
+Instituto de Investigación Sanitaria Gregorio Marañón, Madrid, Spain \
+Centro de Investigación Biomédica en red de Salud Mental (CIBERSAM), Madrid, Spain
+
 ### Support or Contact
 
-Mónica Abella García <mabella@hggm.es>
-Javier García-Blas <fjblas@inf.uc3m.es>
-
+<div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+                <form action="https://formspree.io/f/mzbobavj" method="POST">
+  <label>
+    Your email: <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message: <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Send</button>
+</form>
+        </div>
+    </div>
+    
+ 
 ### Citation
 
 FUX-Sim: Implementation of a fast universal simulation/reconstruction framework for X-ray systems
