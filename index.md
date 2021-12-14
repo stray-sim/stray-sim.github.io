@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## STRAY Simulation platform for radiology systems
 
-You can use the [editor on GitHub](https://github.com/stray-sim/stray-sim.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+- Offers a high degree of flexibility, allowing any value in system parameters: source-to-object distance, detector-to-object distance, detector misalignment, projection size, volume size.
+- Fast multicore and GPU implementation allowing automatic HW resource management. Allows handling 2K resolution volumes on a 32 GB RAM PC. Implementation has been accelerated and optimized, reaching a utilization rate of 95% of the computer's hardware resources (both CPU and GPU). 
+- Implementation of dynamic partitioning of the input data. This feature allows the application to run on a multitude of devices and systems.
+- Portable implementation as it is possible to run it on both Windows and Linux based systems. 
+- Includes the following default configurations: circular CT, helical CT, extended field of view and two tomosynthesis configurations.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stray-sim/stray-sim.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Mónica Abella García <mabella@hggm.es>
+Javier García-Blas <fjblas@inf.uc3m.es>
+
+### Citation
+
+FUX-Sim: Implementation of a fast universal simulation/reconstruction framework for X-ray systems
+Monica Abella, Estefania Serrano, Javier Garcia-Blas, Ines García, Claudia de Molina, Jesus Carretero, Manuel Desco
+Published: July 10, 2017
+https://doi.org/10.1371/journal.pone.0180363
